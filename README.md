@@ -8,3 +8,5 @@ This is a simple Python Flask API supporting the basic CRUD operations for a sim
 - Use hvac to get postgres database credentials from the Vault server
 
 - Create unit tests and testing script
+
+- Create Jenkins Pipeline for the Flask API
