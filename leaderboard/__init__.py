@@ -23,6 +23,12 @@ DATABASE_HOST = "127.0.0.1"
 DATABASE_PORT = "5432"
 DATABASE_NAME = "test_database"
 
+#Vault connection parameters
+VAULT_HOST = "127.0.0.1"
+VAULT_PORT = "8200"
+VAULT_ROLE_ID = ""
+VAULT_SECRET_ID = ""
+
 @app.route('/api/v1/scoreboard', methods=['GET'])
 @cross_origin(supports_credentials=True)
 def ranking():
